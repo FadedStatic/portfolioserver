@@ -864,6 +864,8 @@ dependencies = [
  "actix-files",
  "actix-web",
  "openssl",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]
