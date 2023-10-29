@@ -9,9 +9,3 @@ edition = "2021"
 actix-web = { version = "4", features = ["openssl"] }
 openssl = { version = "0.10", features = ["v110"] }
 actix-files = "0.6.2"
-
-[build]
-target = "armv7-unknown-linux-gnueabihf"
-
-[target.armv7-unknown-linux-gnueabihf]
-linker = "arm-linux-gnueabihf-gcc"
